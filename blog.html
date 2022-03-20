@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Killer Series</title>
+  </head>
+
+  <style>
+    @font-face /*perintah untuk memanggil font eksternal*/ {
+      font-family: "inthewood"; /*memberikan nama bebas untuk font*/
+      src: url("font/Inthewood-Regular.otf"); /*memanggil file font eksternalnya di folder font*/
+    }
+    @font-face {
+      font-family: "dnb";
+      src: url("font/Dark\ &\ Black\ D.otf");
+    }
+    @font-face {
+      font-family: "covenant";
+      src: url("font/Covenant.otf");
+    }
+    @font-face {
+      font-family: "aver";
+      src: url("font/Aver.ttf");
+    }
+  </style>
+
+  <body style="background-image: url(img/Background8.jpg); height: 100vh">
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid fixed-top bg-danger" style="padding: 3px">
+        <a
+          class="navbar-brand fs-3"
+          href="index.html"
+          style="font-family: 'inthewood'"
+        >
+          <img
+            src="img/logo.png"
+            alt=""
+            width="45"
+            height="36"
+            class="d-inline-block align-text-top"
+          />
+          Killer Series
+        </a>
+        <ul class="nav ms-auto" style="font-family: 'inthewood'">
+          <li class="nav-item">
+            <a
+              class="nav-link active text-light"
+              aria-current="page"
+              href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" href="contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+
+  <div class="row text-center mb-4 text-danger" style="margin-top: 150px">
+    <div class="col">
+      <h1 style="font-family: 'inthewood'; font-size: 64px">Killer Series</h1>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100 bg-dark">
+        <img src="img/plaguedoctor.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title text-light" style="font-family: 'inthewood'">
+            Plague Doctor
+          </h5>
+          <p class="card-text text-danger" style="font-family: 'aver'">
+            A plague doctor was a physician who treated victims of the bubonic
+            plague during epidemics.
+          </p>
+        </div>
+        <a
+          href="https://www.livescience.com/plague-doctors.html"
+          class="btn btn-danger"
+          target="_blank"
+          >Read Article</a
+        >
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 bg-dark">
+        <img src="img/jacktheripper.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title text-light" style="font-family: 'inthewood'">
+            Jack The Ripper
+          </h5>
+          <p class="card-text text-danger" style="font-family: 'aver'">
+            Jack the Ripper was an unidentified serial killer active in the
+            impoverished districts in and around Whitechapel in the East End of
+            London in 1888.
+          </p>
+        </div>
+        <a
+          href="https://greatbritishmag.co.uk/uk-culture/who-was-jack-the-ripper/"
+          class="btn btn-danger"
+          target="_blank"
+          >Read Article</a
+        >
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 bg-dark">
+        <img src="img/columbine2.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title text-light" style="font-family: 'inthewood'">
+            Columbine Massacre
+          </h5>
+          <p class="card-text text-danger" style="font-family: 'aver'">
+            The Columbine High School massacre was a school shooting and
+            attempted bombing that occurred on April 20, 1999, at Columbine High
+            School in Columbine, Colorado, United States.
+          </p>
+        </div>
+        <a
+          href="https://www.history.com/topics/1990s/columbine-high-school-shootings"
+          class="btn btn-danger"
+          target="_blank"
+          >Read Article</a
+        >
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer
+    class="text-center text-lg-start bg-dark text-danger"
+    style="margin-top: 50px"
+  >
+    <section
+      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    >
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6
+              class="text-uppercase fw-bold mb-4"
+              style="font-family: 'inthewood'"
+            >
+              <i class="fas fa-gem me-3"></i>Killer Series
+            </h6>
+            <p style="font-family: 'aver'">
+              Web that presents the true story of serial killers in the world
+              throughout history.
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6
+              class="text-uppercase fw-bold mb-4"
+              style="font-family: 'inthewood'"
+            >
+              Social Media
+            </h6>
+            <p>
+              <a
+                href="https://www.instagram.com/roni.merdi/"
+                target="_blank"
+                class="text-reset"
+                style="font-family: 'aver'"
+                >Instagram</a
+              >
+            </p>
+            <p>
+              <a
+                href="https://wa.me/qr/DIBAF3JQW3TVK1"
+                target="_blank"
+                class="text-reset"
+                style="font-family: 'aver'"
+                >WhatsApp</a
+              >
+            </p>
+            <p>
+              <a
+                href="https://telegram.org/dl"
+                target="_blank"
+                class="text-reset"
+                style="font-family: 'aver'"
+                >Telegram</a
+              >
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6
+              class="text-uppercase fw-bold mb-4"
+              style="font-family: 'inthewood'"
+            >
+              Website
+            </h6>
+            <p>
+              <a
+                href="https://github.com/Dapperson"
+                target="_blank"
+                class="text-reset"
+                style="font-family: 'aver'"
+                >GitHub</a
+              >
+            </p>
+            <p>
+              <a
+                href="https://www.linkedin.com/in/roni-merdiansah-312976230/"
+                target="_blank"
+                class="text-reset"
+                style="font-family: 'aver'"
+                >LinkedIn</a
+              >
+            </p>
+            <p></p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6
+              class="text-uppercase fw-bold mb-4"
+              style="font-family: 'inthewood'"
+            >
+              Contact
+            </h6>
+            <p style="font-family: 'aver'">
+              <i class="fas fa-home me-3"></i> Bekasi, 17520, Indonesia
+            </p>
+            <p style="font-family: 'aver'">
+              <i class="fas fa-envelope me-3"></i>
+              ronimerdiansyah@gmail.com
+            </p>
+            <p style="font-family: 'aver'">
+              <i class="fas fa-phone me-3"></i>+62 857 1546 5256
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+      Made by
+      <a
+        class="text-reset fw-bold"
+        href="https://www.instagram.com/roni.merdi/"
+        target="_blank"
+        >Roni Merdiansah</a
+      >
+      <i class="bi bi-stars"></i>
+    </div>
+  </footer>
+</html>

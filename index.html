@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Killer Series</title>
+  </head>
+
+  <style>
+    @font-face /*perintah untuk memanggil font eksternal*/ {
+      font-family: "inthewood"; /*memberikan nama bebas untuk font*/
+      src: url("font/Inthewood-Regular.otf"); /*memanggil file font eksternalnya di folder font*/
+    }
+    @font-face {
+      font-family: "aver";
+      src: url("font/Aver.ttf");
+    }
+  </style>
+
+  <body>
+    <section style="background-image: url(img/Background.jpg); height: 190vh">
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid fixed-top bg-danger" style="padding: 3px">
+          <a
+            class="navbar-brand fs-3"
+            href="index.html"
+            style="font-family: 'inthewood'"
+          >
+            <img
+              src="img/logo.png"
+              alt=""
+              width="45"
+              height="36"
+              class="d-inline-block align-text-top"
+            />
+            Killer Series
+          </a>
+          <ul class="nav ms-auto" style="font-family: 'inthewood'">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active text-light" href="blog.html">Blog</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row text-center mb-4 text-danger" style="margin-top: 150px">
+        <div class="col">
+          <h1 style="font-size: 100px; font-family: 'inthewood'">
+            Killer Series
+          </h1>
+        </div>
+      </div>
+      <div class="row justify-content-center fs-2 text-center text-light">
+        <p style="font-family: 'aver'">Welcome to our Website!</p>
+      </div>
+
+      <nav style="margin-inline: 200px; margin-top: 20px">
+        <div class="container-fluid">
+          <form class="d-flex">
+            <input
+              class="form-control me-2 text-danger"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-danger" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <figure class="text-center text-danger" style="margin-top: 100px">
+        <blockquote class="blockquote">
+          <p style="margin-inline: 150px; font-family: 'aver'">
+            “Is it unnatural that I should have absorbed these things and have
+            become what I am today, a treacherous, degenerate, brutal, human
+            savage, devoid of all decent feeling, without conscience, morals,
+            pity, sympathy, principle or any single good trait? Why am I what I
+            am?”
+          </p>
+        </blockquote>
+        <figcaption
+          class="blockquote-footer text-light"
+          style="font-family: 'inthewood'"
+        >
+          Carl Panzram <cite title="Source Title">In Prison</cite>
+        </figcaption>
+      </figure>
+
+      <div
+        class="row text-center text-danger"
+        style="margin-top: 100px; font-family: 'inthewood'"
+      >
+        <h1 class="display-5">Most Famous Killer Cases</h1>
+      </div>
+      <div class="container text-center" style="margin-top: 50px">
+        <div class="card-group">
+          <div class="card border-light bg-danger">
+            <img
+              src="img/plaguedoctor.png"
+              alt="..."
+              width="150px"
+              style="margin-left: 28%"
+            />
+            <div class="card-body" style="background-color: rgb(0, 0, 0)">
+              <h5
+                class="card-title text-danger"
+                style="font-family: 'inthewood'"
+              >
+                Plague Doctor
+              </h5>
+              <p class="card-text text-light" style="font-family: 'aver'">
+                A plague doctor was a physician who treated victims of the
+                bubonic plague during epidemics.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card border-light bg-danger">
+            <img
+              src="img/jacktheripper.png"
+              alt="..."
+              width="115px"
+              style="margin-left: 35%"
+            />
+            <div class="card-body" style="background-color: rgb(0, 0, 0)">
+              <h5
+                class="card-title text-danger"
+                style="font-family: 'inthewood'"
+              >
+                Jack The Ripper
+              </h5>
+              <p class="card-text text-light" style="font-family: 'aver'">
+                Jack the Ripper was an unidentified serial killer active in the
+                impoverished districts in and around Whitechapel in the East End
+                of London in 1888.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card border-light bg-danger">
+            <img
+              src="img/dylaneric.png"
+              alt="..."
+              width="162px"
+              style="margin-left: 25%"
+            />
+            <div class="card-body" style="background-color: rgb(0, 0, 0)">
+              <h5
+                class="card-title text-danger"
+                style="font-family: 'inthewood'"
+              >
+                Columbine Massacre
+              </h5>
+              <p class="card-text text-light" style="font-family: 'aver'">
+                The Columbine High School massacre was a school shooting and
+                attempted bombing that occurred on April 20, 1999, at Columbine
+                High School in Columbine, Colorado, United States.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+    </section>
+
+    <div class="bg-dark" style="padding: 50px">
+      <div class="row text-center mb-2 text-danger">
+        <div class="col">
+          <h1 style="font-size: 50px; font-family: 'inthewood'">Articles</h1>
+        </div>
+      </div>
+
+      <div class="container text-center bg-dark mb-4">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card text-danger" style="width: 350px">
+              <img src="img/plaguedoctor.jpg" class="card-img-top" alt="..." />
+              <div class="card-img-overlay">
+                <h5 class="card-title" style="font-family: 'inthewood'"> <b>Plague Doctor</b></h5>
+                <p class="card-text" style="font-family: 'aver'">Mad Doctor</p>
+                <a href="blog.html" class="btn btn-danger stretched-link" style="font-family: 'aver'"
+                  >Visit Page</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card text-danger style="width: 350px">
+              <img src="img/jacktheripper.jpg" class="card-img-top" alt="..." />
+              <div class="card-img-overlay">
+                <h5 class="card-title" style="font-family: 'inthewood'"><b>Jack The Ripper</b></h5>
+                <p class="card-text" style="font-family: 'aver'">Unidentified Killer</p>
+                <a href="blog.html" class="btn btn-danger stretched-link" style="font-family: 'aver'"
+                  >Visit Page</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card text-danger" style="width: 350px">
+              <img src="img/columbine2.png" class="card-img-top" alt="..." />
+              <div class="card-img-overlay">
+                <h5 class="card-title" style="font-family: 'inthewood'">
+                  <b>Columbine Massacre</b>
+                </h5>
+                <p class="card-text" style="font-family: 'aver'">Murdering at High School</p>
+                <a href="blog.html" class="btn btn-danger stretched-link" style="font-family: 'aver'"
+                  >Visit Page</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center text-light">
+            <p style="font-size: xx-large; margin-top: 50px; font-family: 'aver'">
+              More articles
+            </p>
+          </div>
+          <div class="text-center">
+            <a href="blog.html" class="btn btn-outline-danger" style="font-family: 'aver'">Blog</a>
+          </div>
+      </div>
+    </div>
+  </body>
+
+  <section style="background-image: url(img/Background3.jpg); height: 100vh">
+    <div style="padding: 100px">
+      <div class="row text-center mb-2 text-danger">
+        <div class="col">
+          <h1 style="font-size: 50px; font-family: 'inthewood'">
+            What is Serial Killer?
+          </h1>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center text-light">
+        <p style="font-size: xx-large; font-family: 'aver'">------</p>
+      </div>
+      <div class="row justify-content-center fs-5 text-center text-danger">
+        <p style="font-family: 'aver'">
+          A serial killer is an individual who murders a series of victims over
+          a period of time, typically with gaps between each killing. Some
+          serial killers kidnap and/or torture their victims prior to murdering
+          them. While it’s not always clear what motivates serial killers to
+          commit such heinous acts, abnormal psychological processes—notably
+          severe antisocial tendencies—are to blame. In society, serial killers
+          often generate fascination along with fear; their crimes tend to bring
+          notoriety, media attention, and “fans” who study their crimes or, in
+          some cases, form relationships with the murderer.
+        </p>
+      </div>
+      <div class="row justify-content-center text-center text-light">
+        <p style="font-size: xx-large; margin-top: 100px; font-family: 'aver'">
+          Learn more about us
+        </p>
+      </div>
+      <div class="text-center">
+        <a href="about.html" class="btn btn-outline-danger">About Us</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-dark p-5">
+    <div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-8" style="font-family: 'aver'">
+          <div
+            class="headings text-danger d-flex justify-content-between align-items-center mb-3"
+          >
+            <h5 style="font-family: 'aver'">Comments</h5>
+            <div class="buttons card border-danger">
+              <span class="btn bg-dark d-flex flex-row align-items-center" style="font-family: 'aver'">
+                <span class="text-danger">Comments "ON"</span>
+                <div class="form-check form-switch btn-padding-x-sm">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="flexSwitchCheckChecked"
+                    checked
+                  />
+                </div>
+              </span>
+            </div>
+          </div>
+          
+          <div class="card p-3">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="user d-flex flex-row align-items-center">
+                <img
+                  src="https://i.imgur.com/hczKIze.jpg"
+                  width="30"
+                  class="user-img rounded-circle mr-2"
+                />
+                <span style="margin-left: 15px;"
+                  ><small class="font-weight-bold text-danger"
+                    >james_olesenn</small
+                  >
+                  <small class="font-weight-bold"
+                    ><br> Hmm, This article was interesting</small
+                  ></span
+                >
+              </div>
+              <small>2 days ago</small>
+            </div>
+            <div
+              class="action d-flex justify-content-between mt-2 align-items-center"
+            >
+              <div class="reply px-4" style="margin-left: 20px;">
+                <a href=""> <small>Reply</small> <span class="dots"></span></a>
+              </div>
+              <div class="icons align-items-center">
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-check-circle-o check-icon"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card p-3 mt-2">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="user d-flex flex-row align-items-center">
+                <img
+                  src="https://i.imgur.com/C4egmYM.jpg"
+                  width="30"
+                  class="user-img rounded-circle mr-2"
+                />
+                <span style="margin-left: 15px;"
+                  ><small class="font-weight-bold text-danger"
+                    >olan_sams</small
+                  >
+                  <small class="font-weight-bold"
+                    ><br> Loving your article!
+                  </small></span
+                >
+              </div>
+              <small>3 days ago</small>
+            </div>
+            <div
+              class="action d-flex justify-content-between mt-2 align-items-center"
+            >
+              <div class="reply px-4" style="margin-left: 20px;">
+                <a href=""> <small>Reply</small> <span class="dots"></span></a>
+              </div>
+              <div class="icons align-items-center">
+                <i class="fa fa-check-circle-o check-icon text-primary"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card p-3 mt-2">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="user d-flex flex-row align-items-center">
+                <img
+                  src="https://i.imgur.com/0LKZQYM.jpg"
+                  width="30"
+                  class="user-img rounded-circle mr-2"
+                />
+                <span style="margin-left: 15px;"
+                  ><small class="font-weight-bold text-danger"
+                    >rashida_jones</small
+                  >
+                  <small class="font-weight-bold"
+                    ><br> Really cool, please add more!
+                  </small></span
+                >
+              </div>
+              <small>3 days ago</small>
+            </div>
+            <div
+              class="action d-flex justify-content-between mt-2 align-items-center"
+            >
+              <div class="reply px-4" style="margin-left: 20px;">
+                <a href=""> <small>Reply</small> <span class="dots"></span></a>
+              </div>
+              <div class="icons align-items-center">
+                <i class="fa fa-user-plus text-muted"></i>
+                <i class="fa fa-star-o text-muted"></i>
+                <i class="fa fa-check-circle-o check-icon text-primary"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card p-3 mt-2">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="user d-flex flex-row align-items-center">
+                <img
+                  src="img/profil.jpg"
+                  width="30"
+                  class="user-img rounded-circle mr-2"
+                />
+                <span style="margin-left: 15px;"
+                  ><small class="font-weight-bold text-danger"
+                    >roni merdiansah</small
+                  >
+                  <small class="font-weight-bold text-danger"
+                    >@macky_lones</small
+                  >
+                  <small class="font-weight-bold text-danger"
+                    >@rashida_jones</small
+                  >
+                  <small class="font-weight-bold">Thanks </small></span
+                >
+              </div>
+              <small>3 days ago</small>
+            </div>
+            <div
+              class="action d-flex justify-content-between mt-2 align-items-center"
+            >
+              <div class="reply px-4" style="margin-left: 20px;">
+                <a href=""> <small>Reply</small> <span class="dots"></span></a>
+              </div>
+              <div class="icons align-items-center">
+                <i class="fa fa-check-circle-o check-icon text-primary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-3 text-danger" style="margin-inline: 197px">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label" style="font-family: 'aver'"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label" style="font-family: 'aver'"
+            >Comments</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <button type="button" class="btn btn-danger" style="font-family: 'aver'">Send</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center text-lg-start bg-dark text-danger">
+    <section
+      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    >
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6
+              class="text-uppercase fw-bold mb-4"
+              style="font-family: 'inthewood'"
+            >
+              <i class="fas fa-gem me-3"></i>Killer Series
+            </h6>
+            <p style="font-family: 'aver'">
+              Web that presents the true story of serial killers in the world
+              throughout history.
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6
+              class="text-uppercase fw-bold mb-4"
+              style="font-family: 'inthewood'"
+            >
+              Social Media
+            </h6>
+            <p>
+              <a
+                href="https://www.instagram.com/roni.merdi/"
+                target="_blank"
+                class="text-reset"
+                style="font-family: 'aver'"
+                >Instagram</a
+              >
+            </p>
+            <p>
+              <a
+                href="https://wa.me/qr/DIBAF3JQW3TVK1"
+                target="_blank"
+                class="text-reset"
+                style="font-family: 'aver'"
+                >WhatsApp</a
+              >
+            </p>
+            <p>
+              <a
+                href="https://telegram.org/dl"
+                target="_blank"
+                class="text-reset"
+                style="font-family: 'aver'"
+                >Telegram</a
+              >
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6
+              class="text-uppercase fw-bold mb-4"
+              style="font-family: 'inthewood'"
+            >
+              Website
+            </h6>
+            <p>
+              <a
+                href="https://github.com/Dapperson"
+                target="_blank"
+                class="text-reset"
+                style="font-family: 'aver'"
+                >GitHub</a
+              >
+            </p>
+            <p>
+              <a
+                href="https://www.linkedin.com/in/roni-merdiansah-312976230/"
+                target="_blank"
+                class="text-reset"
+                style="font-family: 'aver'"
+                >LinkedIn</a
+              >
+            </p>
+            <p></p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6
+              class="text-uppercase fw-bold mb-4"
+              style="font-family: 'inthewood'"
+            >
+              Contact
+            </h6>
+            <p style="font-family: 'aver'">
+              <i class="fas fa-home me-3"></i> Bekasi, 17520, Indonesia
+            </p>
+            <p style="font-family: 'aver'">
+              <i class="fas fa-envelope me-3"></i>
+              ronimerdiansyah@gmail.com
+            </p>
+            <p style="font-family: 'aver'">
+              <i class="fas fa-phone me-3"></i>+62 857 1546 5256
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+      Made by
+      <a
+        class="text-reset fw-bold"
+        href="https://www.instagram.com/roni.merdi/"
+        target="_blank"
+        >Roni Merdiansah</a
+      >
+      <i class="bi bi-stars"></i>
+    </div>
+  </footer>
+</html>
